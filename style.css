@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #16e912;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e40f1d, #50196c, #16444e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e4f53, #805794, #4e8692);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #bfb4c8;
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'poppins', serif;
+}
+
+.Survayfrom {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Task1 {
+    margin: 40px;
+    font-weight: 600;
+    color: rgb(0, 255, 191);
+}
+
+#main-heading {
+    font-size: 1.8em;
+}
+
+#subtitle {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(0, 255, 200);
+}
+
+#first_div {
+    width: 90%;
+    margin: auto;
+}
+
+#Second_div {
+    margin-top: 10px;
+}
+
+form {
+    background-image: url(image/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+form .box {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+#option1 select {
+    width: 100%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#option2 select {
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    top: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#content2 textarea {
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 18px;
+}
+
+button {
+    width: 98.5%;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(42, 144, 128);
+    border: none;
+    color: rgb(153, 59, 59);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+    font-size: 1.4em;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    width: 80%;
+}
+
+input::placeholder {
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 70%;
+    font-weight: 500;
+}
+
+input .larger {
+    width: 20px;
+    height: 40px;
+}
+
+@media screen and (max-width:600px) {
+    form {
+        width: 100%;
+        margin: auto;
+    }
+}
